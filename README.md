@@ -121,6 +121,8 @@ Dự án hỗ trợ nhận diện và phân loại 5 lớp hình ảnh trên lá
 
 <div align="center">
   <img src="assets/class_distribution.png" alt="Phân bổ dữ liệu" width="45%" />
+</div>
+<div align="center">
   <img src="assets/data_split.png" alt="Phân chia dữ liệu" width="45%" />
 </div>
 
