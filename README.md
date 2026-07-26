@@ -106,12 +106,37 @@ Sau khi khởi chạy thành công, terminal sẽ cung cấp một đường lin
 
 ## 📊 Thông tin Phân loại (Classes)
 
-Dự án hỗ trợ nhận diện và phân loại 5 lớp hình ảnh trên lá ngô:
-1. `blight`: Bệnh đốm lá lớn
-2. `common_rust`: Bệnh rỉ sắt
-3. `gray_spot`: Bệnh đốm xám
-4. `healthy`: Lá khỏe mạnh bình thường
-5. `not_corn_leaf`: Không phải hình ảnh lá ngô
+Dự án hỗ trợ nhận diện và phân loại 5 lớp hình ảnh trên lá ngô. Dưới đây là bảng thống kê số lượng hình ảnh cho từng phân lớp trong tập dữ liệu:
+
+| Lớp (Class) | Mô tả | Số lượng (Images) |
+| :--- | :--- | :--- |
+| **Blight** | Bệnh đốm lá lớn | 1834 |
+| **Common Rust** | Bệnh rỉ sắt | 1802 |
+| **Gray Leaf Spot** | Bệnh đốm xám | 2119 |
+| **Healthy** | Lá khỏe mạnh bình thường | 1677 |
+| **Not Corn Leaf** | Không phải hình ảnh lá ngô | 2195 |
+| **Tổng cộng** | | **9627** |
+
+*(Dưới đây là biểu đồ tỷ lệ phân bổ các lớp dữ liệu và tỷ lệ chia tập dữ liệu train/val/test)*
+
+<div align="center">
+  <img src="assets/class_distribution.png" alt="Phân bổ dữ liệu" width="45%" />
+  <img src="assets/data_split.png" alt="Phân chia dữ liệu" width="45%" />
+</div>
+
+## 📈 Kết quả Mô hình (Model Performance)
+
+Dự án đã tiến hành thử nghiệm và so sánh nhiều kiến trúc mạng khác nhau. Dưới đây là biểu đồ so sánh độ chính xác (Accuracy) và bảng chi tiết các độ đo (Metrics) cho các mô hình:
+
+<div align="center">
+  <img src="assets/accuracy_chart.png" alt="Biểu đồ so sánh Accuracy" width="80%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/metrics_table.png" alt="Bảng chi tiết các độ đo (Metrics)" width="80%" />
+</div>
 
 ---
 *Dự án 07 Deep Learning - Cập nhật 2026*
