@@ -2,7 +2,7 @@
 
 ![Project Banner](https://img.shields.io/badge/Deep%20Learning-Agriculture-green) ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
 
-Một hệ thống phân loại bệnh trên lá ngô (Corn Leaf Disease) sử dụng Deep Learning. Dự án cung cấp một ứng dụng web hoàn chỉnh với giao diện thân thiện (React + Vite) và API mạnh mẽ (FastAPI + TensorFlow), giúp người dùng tải ảnh lên và nhận diện bệnh với độ chính xác cao.
+Một hệ thống phân loại bệnh trên lá ngô sử dụng Deep Learning. Dự án cung cấp một ứng dụng web hoàn chỉnh với giao diện thân thiện (React + Vite) và API mạnh mẽ (FastAPI + TensorFlow), giúp người dùng tải ảnh lên và nhận diện bệnh với độ chính xác cao.
 
 ## ✨ Tính năng chính
 
